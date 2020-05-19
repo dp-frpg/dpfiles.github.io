@@ -1,179 +1,3 @@
-<html>
-<head> <style>
-@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-</style>
-
-<style>
-
-@font-face {font-family: "Romul";
-  src: url("http://forumstatic.ru/files/001a/ae/b4/73869.eot"); /* IE9*/
-  src: url("http://forumstatic.ru/files/001a/ae/b4/73869.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("http://forumstatic.ru/files/001a/ae/b4/66951.woff2") format("woff2"), /* chrome、firefox */
-  url("http://forumstatic.ru/files/001a/ae/b4/70731.woff") format("woff"), /* chrome、firefox */
-  url("http://forumstatic.ru/files/001a/ae/b4/81293.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("http://forumstatic.ru/files/001a/ae/b4/70776.svg#Romul") format("svg"); /* iOS 4.1- */
-}
-
-
-
-
-#timeline {width: 605px;
-height: 520px;}
-
-
-
-.regions {
-width: 606px;
-  margin: 10px;
-  height: 500px;
-  margin-top:9px;
-  position: absolute;
-  margin-left: 0px;
-}
-
-
-.tabs {
-	padding: 0px;
-	margin: 0 auto;
-}
-
-.tabs>section {
-	display: none;
-	/*padding: 10px;*/
-  height: 740px;
-  overflow-y: auto;
-  margin: 5px;
-  font-family: arial;
-  font-size: 11px;
-  text-align: justify
-}
-.tabs>section>table {
-	margin: 0 0 5px;
-	line-height: 1.5;
-	color: #383838;
-	-webkit-animation-duration: 1s;
-	animation-duration: 1s;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-	-webkit-animation-name: fadeIn;
-	animation-name: fadeIn;
-    
-    
-}
-
- 
-@keyframes fadeIn {
-	from {
-opacity: 0;
-transition: opacity .55s ease-in-out;
-	}
-	to {
-    opacity: 1;
-	}
-    
-    
-    
-}
-
-.tabs>input {
-	display: none;
-	position: absolute;
-}
-
-.tabs>label:first-of-type {box-shadow: none}
-.tabs>label {
-	display: inline-grid;
-	margin: 0 -3px 0px;
-	padding: 10px 0px;
-	font-weight: 600;
-	text-align: center;
-	color: #bbb4a1;
-	background: #3a372b;
-  width: 153px;
-  border: solid rgba(0,0,0,.2);
-  border-width: 0px 0px 1px 0px;
-  left: 3px;
-  top: -9px;
-  position: relative;
-  font-family: romul;
-  font-size: 8px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: lighter;
-  box-shadow: 1px 0 0 0 rgba(0,0,0,.2) inset
-}
-    
-    .tabs>label:after{
-     position: absolute;
-  left: 0;
-  display: inline-block;
-  height: 1em;
-  width: 100%;
-  border-bottom: 1px solid;
-  margin-top: 10px;
-  opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(0,1);
-        transform: scale(0,1);}
-    
-
-.tabs>label:hover:after {
-background: #888;
-    font-weight: bold;}
-    
-.tabs>label:hover {
-    font-stretch: expanded;
-    letter-spacing: 2.5px;
-	cursor: pointer;
-  transition: all .3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s
-}
-
-.tabs>input:checked+label {
-	color: #bbb4a1;
-  background: #9d382e;
-}
-    
-
-#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4, #tab5:checked~#content-tab5, #tab6:checked~#content-tab6, #tab7:checked~#content-tab7, #tab8:checked~#content-tab8 
-    {
-	display: block;
-}
-    
-
-    .bold {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: oranienbaum;
-    font-size: 13;
-        
-    }
-    
-    .col-1 {
-        
-        width: 20%;
-        vertical-align: top;
-    }
-    
-    
-    tr>td {
-        
-        padding-bottom: 1em;
-    }
-    
-    table {
-        
-        font-family: arial;
-        font-size: 11px;
-        text-align: justify;
-    }
-    
-    table p {
-        
-        padding-right: 9px;
-    }
-</style></head>
-<body>
 <div id="timeline">
  
   <div class="regions">
@@ -194,7 +18,7 @@ background: #888;
     <label for="tab5">Шармбатон</label>
     
     <input id="tab6" type="radio" name="tabs">
-    <label for="tab6">Coming This May</label>
+    <label for="tab6">Уагаду/Аркана</label>
     
     <input id="tab7" type="radio" name="tabs">
     <label for="tab7">Coming Soon</label>
@@ -207,6 +31,13 @@ background: #888;
     <section id="content-tab1">
        
 <table>
+    
+        <tr>
+        <td class="col-1"><p class="bold">IX CENTURY</p></td>
+        <td><p><span class="bold">Открытие Уагаду</span><br>
+        Основание первой и старейшей школы магии в мире</p></td> 
+        </tr>  
+    
     <tr>
         <td class="col-1"><p class="bold">CA. 990</p></td>
         <td><p><span class="bold">Основание Хогвартса</span><br>
@@ -461,14 +292,63 @@ background: #888;
         <td class="col-1"><p class="bold">1777</p></td>
         <td><p><span class="bold">Решение о невмешательстве в британскую войну между магглами и магами</span><br>
         Президент Элизабет МакГиллигадди организовала встречу, чтобы решить, если магическое сообщество Америки должно вступить в войну немагов и британских магглов. Дебаты закончились отказом от этой идеи.</p></td> 
-        </tr>      
+        </tr> 
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">1791</p></td>
+        <td><p><span class="bold">Cоздание Пакта</span><br>
+        Подписание договора на основание единого магического сообщества на территории Африки</p></td> 
+        </tr> 
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">1799</p></td>
+        <td><p><span class="bold">Cделка с Агве</span><br>
+        Лидеры Пакта единогласно решили предложить сотрудничество Агве, магическому адмиралу волшебного судна, где они будут предоставлять ему осужденных в качестве команды корабля. Таким образом, адмирал получал людей под свое управление, а Пакт мог просто сбыть осужденных и не беспокоиться ни о возможностях побега, ни о других проблемах.</p></td> 
+        </tr>
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">1805</p></td>
+        <td><p><span class="bold">Победа Авангарда</span><br>
+        Первая в своем роде группа наемников Пакта посрамила Легион, бесстрашно бросившись в атаку и победив прежде чем легионеры смогли принять какое-либо решение</p></td> 
+        </tr> 
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">1808</p></td>
+        <td><p><span class="bold">Учреждение города Айрит</span><br>
+        Пактом было принято решение выделить один город для всех массовых мероприятий магического общества Пакта</p></td> 
+        </tr>
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">1812</p></td>
+        <td><p><span class="bold">Создание распределительных чаш</span><br>
+        Трое сильнейших шаманов Пакта разработали метод распределения студентов по факультетам, которым пользуются по сей день</p></td> 
+        </tr>
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1813</p></td>
+        <td><p><span class="bold">Открытие Академии Аркана</span><br>
+        Официальное открытие второй школы региона, предназначенной для студентов, неспособных оплатить обучение в Уагаду</p></td> 
+        </tr>
     
     
         <tr>
         <td class="col-1"><p class="bold">CA. 1830</p></td>
         <td><p><span class="bold">Хогвартс-Экспресс</span><br>
         С учётом мер по соблюдению Статута о Секретности, доставка студентов в школу и обратно доставляла немало хлопот" Министр Магии Отталин Гэмбол, ценитель маггловских изобретений, предложил использовать поезд с паровым двигателем. По слухам, на поезд наложено сто шестьдесят семь скрывающих чар.</p></td> 
-        </tr>         
+        </tr>
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">1851</p></td>
+        <td><p><span class="bold">Создание школьных соревнований Пакта</span><br>
+        Было принято решение создать соревнование, где лучшие ученики обеих школ могли показать себя.</p></td> 
+        </tr>      
     
     
         <tr>
@@ -508,6 +388,20 @@ background: #888;
         <tr>
         <td class="col-1"><p class="bold">1892</p></td>
         <td><p><span class="bold">Переезд МАКУСА в Нью-Йорк</span><br>Великое восстание сасквотчей вынудило МАКУСА перебазироваться (уже пятый раз) из Вашингтона в Нью-Йорк.</p></td> 
+        </tr> 
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">14 AUGUST 1895</p></td>
+        <td><p><span class="bold">Массовое осуждение сквибов Пакта</span><br>
+        Первое и последнее в своем роде. Группа радикальных сквибов, получивших невосприимчивость к магии через предков, осужденных за преступления и лишенных доступа к волшебству, атаковала магов во время третьего дня фестиваля Авангарда. Наемникам и легионерам удалось изловить всех, но радикалы успели убить десять человек и ранить еще шестнадцать. Они все были приговорены к пожизненному сроку на Инферно. Выяснить их намерения так и не удалось - их невосприимчивость также распространяется на веритасерум.</p></td> 
+        </tr>     
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">15 AUGUST 1895</p></td>
+        <td><p><span class="bold">Принятие закона об обязательном учете сквибов</span><br>
+        Чтобы вести надзор и предотвратить последующие атаки, магистрат Пакта подписал указ об обязательной регистрации всех сквибов и прохождении ими теста на невосприимчивость.</p></td> 
         </tr>      
     
     
@@ -540,6 +434,41 @@ background: #888;
     
     
         <tr>
+        <td class="col-1"><p class="bold">1900</p></td>
+        <td><p><span class="bold">Появление второго полтергейста в Уагаду</span><br>
+        Школа приняла решение впустить второго полтергейста, что отвлекло их основную проблему от создания неприятностей, завязав противостояние двух существ</p></td> 
+        </tr> 
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">1901</p></td>
+        <td><p><span class="bold">Создание фестиваля Авангарда</span><br>
+        Количество «банд» в составе Авангарда резко увеличилось, а их популярность быстро набирала обороты, поэтому был основан фестиваль, на котором именитые группы и недавно основанные могли продемонстрировать навыки в сражениях с монстрами на Арене в городе Айрит</p></td> 
+        </tr>  
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">AUGUST 1903</p></td>
+        <td><p><span class="bold">Введение послабления на запрет питомцев в Уагаду</span><br>
+        Школа приняла решение позволить студентам иметь домашних питомцев при условии, что животные всегда будут находиться на основной территории школы</p></td> 
+        </tr>    
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">OCTOBER 1903</p></td>
+        <td><p><span class="bold">Отмена послабления на запрет питомцев в Уагаду</span><br>
+        Непредвиденные проблемы с новым полтергейстом вынудили администрацию отменить разрешение на наличие питомцев. Все студенты были вынуждены отправить домашних любимцем обратно.</p></td> 
+        </tr>  
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">5 JANUARY 1913</p></td>
+        <td><p><span class="bold">Мир между криминальными семьями</span><br>
+        В день мертвых, когда никто не осмелится проливать кровь, на первом в подобном роде собрании глав криминальных семей, были приняты условия мира.</p></td> 
+        </tr>                
+    
+    
+        <tr>
         <td class="col-1"><p class="bold">1920</p></td>
         <td><p><span class="bold">Новый президент МАКУСА</span><br>
         Серафина Пикери становится Президентом МАКУСА.</p></td> 
@@ -550,7 +479,21 @@ background: #888;
         <td class="col-1"><p class="bold">1920</p></td>
         <td><p><span class="bold">Вторые салемцы</span><br>
         Образование группы радикальных немагов, «Новое Салемское Филантропическое Общество», которая хотела вывести на свет и уничтожить волшебников и ведьм. Главой общества была Мэри Лу Бэрбоун.</p></td> 
-        </tr>     
+        </tr>   
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">3 JUNE 1923</p></td>
+        <td><p><span class="bold">Беспорядки в Айрите</span><br>
+        Матч двух команд Пакта по квиддичу закончился массовыми беспорядками, когда фанаты сильно разошлись во мнении и устроили драку на семидесятой минуте матча. Легион остановил игру и навел порядок на Арене. Проигрывающая команда потребовала переиграть матч, но все равно не смогла урвать победу.</p></td> 
+        </tr> 
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">5 JUNE 1923</p></td>
+        <td><p><span class="bold">Усиление присутствия легиона на всех массовых мероприятиях</span><br>
+        Магистрат подписал указ об удвоении числа легионеров на каждом мероприятии, подразумевающем большое скопление волшебников. Это предотвратило совсем очевидные беспорядки, но они все равно продолжились, просто вдали от глаз легионеров</p></td> 
+        </tr>         
     
     
         <tr>
@@ -614,6 +557,13 @@ background: #888;
         <td><p><span class="bold">Пожиратели Смерти</span><br>
         Примерно в середине десятилетия бывшие друзья и однокурсники Тома начали именовать себя Пожирателями Смерти. По большей мере это были выходцы из чистокровных семей и бывшие последователи Гриндевальда.</p></td> 
         </tr>    
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">13 DECEMBER 1955</p></td>
+        <td><p><span class="bold">Пропажа экспедиции во впадине Конго</span><br>
+        Группа из десяти исследователей отправилась раз и навсегда разобраться, что заставляет эту часть Конго быть смертельно опасной и магически непредсказуемой. Возможно, они что-то и узнали, но поделиться своими выводами не смогли - с ними была потеряна связь через два часа после того, как они вошли в опасную зону и все десять магов пропали без следа. С тех пор Пакт принял решение оставить попытки изучить эту местность.</p></td> 
+        </tr>         
     
     
         <tr>
@@ -719,6 +669,12 @@ background: #888;
         <td class="col-1"><p class="bold">25 DECEMBER 1979</p></td>
         <td><p><span class="bold">Массовое отравление магов</span><br>
         Аптекарь из Косого Переулка решил самостоятельно избавиться от магглорожденных волшебников, создав отвар, убивающих всех грязнокровок. Все маги проходили через агонию, но почти все приходили в себя. И лишь единицы умирали. Благодаря стараниям целителей из отделения недугов от заклятий, было сварено противоядие, останавливающее действия отвара. Министерство Магии до сих пор в поисках виновного, проводит допросы и обыски.</p></td> 
+        </tr>    
+    
+        <tr>
+        <td class="col-1"><p class="bold">29 DECEMBER 1979</p></td>
+        <td><p><span class="bold">Разрушение драконьего заповедника</span><br>
+        Крупнейший заповедник находился в Кении. Он славился разнообразием и количеством драконов. Когда там проходила ежегодная конференция, один из молодых драконов смог освободиться. Видимо, это заметили слишком поздно, потому что никто из участников конференции не выжил, а в пожарах все остальные драконы смогли улететь. Они создают большую проблему для всего региона, так как драконологов почти не осталось, а высвободившиеся на волю драконы часто устраивают бесчинства.</p></td> 
         </tr>     
     
     
@@ -748,10 +704,17 @@ background: #888;
     
         <tr>
         <td class="col-1"><p class="bold">25 FEBRUARY 1980</p></td>
-        <td><p><span class="bold">Монстар в стенах Хогвартса</span><br>
+        <td><p><span class="bold">Монстр в стенах Хогвартса</span><br>
         Двое студентов находят в лесу необычного зверя и решают забрать его в замок. Позже выясняется, что это - смертельно опасное чудовище из старых сказок. Попробовав человеческую кровь, оно меняет форму и становится практически неостановимым. Нескольким студентам, отправившимся на его поиски, при помощи двух преподавателей удается выпустить монстра из замка.<br>
         <span><a href="http://cruciatuscurse.rusff.ru/viewtopic.php?id=606">[25.02.1980] a monster calls</a></span></p></td> 
         </tr>  
+    
+    
+        <tr>
+        <td class="col-1"><p class="bold">25 FEBRUARY 1980</p></td>
+        <td><p><span class="bold">Официальной начало войны между криминальными семьями</span><br>
+        На протяжение предыдущей недели были убиты трое младших представителей семей Уэйленд, Ралас и Вестер. Семьи нашли косвенные доказательства причастности других семей, которым тут же предъявили обвинения в убийстве и нарушении условий мира. Новая война началась быстро, конфликт разгорелся с неимоверной скоростью и масштаб этой войны уже готов посрамить все предыдущие.</p></td> 
+        </tr>                 
     
     
 
@@ -796,6 +759,7 @@ background: #888;
         <td><p><span class="bold">Создание Тайной Комнаты</span><br>
         Нарастающая вражда между Салазаром Слизерином и Годриком Гриффиндором вынуждает первого покинуть Хогвартс. Но перед этим он создал Тайную Комнату и оставил там Василиска, чтобы однажды монстр был выпущен на волю и закончил «благородное дело» Слизерина, очистив замок от недостойных изучать магию.</p></td> 
         </tr>
+        
         
         
         <tr>
@@ -1049,7 +1013,7 @@ background: #888;
         
         <tr>
         <td class="col-1"><p class="bold">25 FEBRUARY 1980</p></td>
-        <td><p><span class="bold">Монстар в стенах Хогвартса</span><br>
+        <td><p><span class="bold">Монстр в стенах Хогвартса</span><br>
         Двое студентов находят в лесу необычного зверя и решают забрать его в замок. Позже выясняется, что это - смертельно опасное чудовище из старых сказок. Попробовав человеческую кровь, оно меняет форму и становится практически неостановимым. Нескольким студентам, отправившимся на его поиски, при помощи двух преподавателей удается выпустить монстра из замка.<br>
         <span><a href="http://cruciatuscurse.rusff.ru/viewtopic.php?id=606">[25.02.1980] a monster calls</a></span></p></td> 
         </tr>          
@@ -1404,21 +1368,163 @@ background: #888;
     <!-- BEAUXBATON END-->
     
     
-      <!-- COMING SOON 1-->
+      <!-- PACT-->
     
      <section id="content-tab6">
     <table>
+        
+        <tr>
+        <td class="col-1"><p class="bold">IX CENTURY</p></td>
+        <td><p><span class="bold">Открытие Уагаду</span><br>
+        Основание первой и старейшей школы магии в мире</p></td> 
+        </tr>  
+        
         <tr>
         <td class="col-1"><p class="bold">1692</p></td>
         <td><p><span class="bold">Принятие Международного Статута о Секретности</span><br>
         Саммит Международной Конференции Магов длился семь недель и включал в себя делегации гоблинов, кентавров и водяного народа. Результатом стал закон о сокрытии волшебного мира от магглов.</p></td> 
         </tr>    
-    
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1791</p></td>
+        <td><p><span class="bold">Cоздание Пакта</span><br>
+        Подписание договора на основание единого магического сообщества на территории Африки</p></td> 
+        </tr>
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1799</p></td>
+        <td><p><span class="bold">Cделка с Агве</span><br>
+        Лидеры Пакта единогласно решили предложить сотрудничество Агве, магическому адмиралу волшебного судна, где они будут предоставлять ему осужденных в качестве команды корабля. Таким образом, адмирал получал людей под свое управление, а Пакт мог просто сбыть осужденных и не беспокоиться ни о возможностях побега, ни о других проблемах.</p></td> 
+        </tr>
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1805</p></td>
+        <td><p><span class="bold">Победа Авангарда</span><br>
+        Первая в своем роде группа наемников Пакта посрамила Легион, бесстрашно бросившись в атаку и победив прежде чем легионеры смогли принять какое-либо решение</p></td> 
+        </tr>
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1808 </p></td>
+        <td><p><span class="bold">Учреждение города Айрит</span><br>
+        Пактом было принято решение выделить один город для всех массовых мероприятий магического общества Пакта</p></td> 
+        </tr>
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1812  </p></td>
+        <td><p><span class="bold">Создание распределительных чаш</span><br>
+        Трое сильнейших шаманов Пакта разработали метод распределения студентов по факультетам, которым пользуются по сей день</p></td> 
+        </tr>
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1813  </p></td>
+        <td><p><span class="bold">Открытие Академии Аркана</span><br>
+        Официальное открытие второй школы региона, предназначенной для студентов, неспособных оплатить обучение в Уагаду</p></td> 
+        </tr>
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1851</p></td>
+        <td><p><span class="bold">Создание школьных соревнований Пакта</span><br>
+        Было принято решение создать соревнование, где лучшие ученики обеих школ могли показать себя.</p></td> 
+        </tr>        
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">14 AUGUST 1895</p></td>
+        <td><p><span class="bold">Массовое осуждение сквибов Пакта</span><br>
+        Первое и последнее в своем роде. Группа радикальных сквибов, получивших невосприимчивость к магии через предков, осужденных за преступления и лишенных доступа к волшебству, атаковала магов во время третьего дня фестиваля Авангарда. Наемникам и легионерам удалось изловить всех, но радикалы успели убить десять человек и ранить еще шестнадцать. Они все были приговорены к пожизненному сроку на Инферно. Выяснить их намерения так и не удалось - их невосприимчивость также распространяется на веритасерум.</p></td> 
+        </tr> 
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">15 AUGUST 1895</p></td>
+        <td><p><span class="bold">Принятие закона об обязательном учете сквибов</span><br>
+        Чтобы вести надзор и предотвратить последующие атаки, магистрат Пакта подписал указ об обязательной регистрации всех сквибов и прохождении ими теста на невосприимчивость.</p></td> 
+        </tr>   
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1900</p></td>
+        <td><p><span class="bold">Появление второго полтергейста в Уагаду</span><br>
+        Школа приняла решение впустить второго полтергейста, что отвлекло их основную проблему от создания неприятностей, завязав противостояние двух существ</p></td> 
+        </tr>  
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">1901</p></td>
+        <td><p><span class="bold">Создание фестиваля Авангарда</span><br>
+        Количество «банд» в составе Авангарда резко увеличилось, а их популярность быстро набирала обороты, поэтому был основан фестиваль, на котором именитые группы и недавно основанные могли продемонстрировать навыки в сражениях с монстрами на Арене в городе Айрит</p></td> 
+        </tr>  
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">AUGUST 1903</p></td>
+        <td><p><span class="bold">Введение послабления на запрет питомцев в Уагаду</span><br>
+        Школа приняла решение позволить студентам иметь домашних питомцев при условии, что животные всегда будут находиться на основной территории школы</p></td> 
+        </tr>    
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">OCTOBER 1903</p></td>
+        <td><p><span class="bold">Отмена послабления на запрет питомцев в Уагаду</span><br>
+        Непредвиденные проблемы с новым полтергейстом вынудили администрацию отменить разрешение на наличие питомцев. Все студенты были вынуждены отправить домашних любимцем обратно.</p></td> 
+        </tr>      
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">5 JANUARY 1913</p></td>
+        <td><p><span class="bold">Мир между криминальными семьями</span><br>
+        В день мертвых, когда никто не осмелится проливать кровь, на первом в подобном роде собрании глав криминальных семей, были приняты условия мира.</p></td> 
+        </tr>          
+          
+        
+        <tr>
+        <td class="col-1"><p class="bold">3 JUNE 1923</p></td>
+        <td><p><span class="bold">Беспорядки в Айрите</span><br>
+        Матч двух команд Пакта по квиддичу закончился массовыми беспорядками, когда фанаты сильно разошлись во мнении и устроили драку на семидесятой минуте матча. Легион остановил игру и навел порядок на Арене. Проигрывающая команда потребовала переиграть матч, но все равно не смогла урвать победу.</p></td> 
+        </tr>      
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">5 JUNE 1923</p></td>
+        <td><p><span class="bold">Усиление присутствия легиона на всех массовых мероприятиях</span><br>
+        Магистрат подписал указ об удвоении числа легионеров на каждом мероприятии, подразумевающем большое скопление волшебников. Это предотвратило совсем очевидные беспорядки, но они все равно продолжились, просто вдали от глаз легионеров</p></td> 
+        </tr>  
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">13 DECEMBER 1955</p></td>
+        <td><p><span class="bold">Пропажа экспедиции во впадине Конго</span><br>
+        Группа из десяти исследователей отправилась раз и навсегда разобраться, что заставляет эту часть Конго быть смертельно опасной и магически непредсказуемой. Возможно, они что-то и узнали, но поделиться своими выводами не смогли - с ними была потеряна связь через два часа после того, как они вошли в опасную зону и все десять магов пропали без следа. С тех пор Пакт принял решение оставить попытки изучить эту местность.</p></td> 
+        </tr> 
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">29 DECEMBER 1979</p></td>
+        <td><p><span class="bold">Разрушение драконьего заповедника</span><br>
+        Крупнейший заповедник находился в Кении. Он славился разнообразием и количеством драконов. Когда там проходила ежегодная конференция, один из молодых драконов смог освободиться. Видимо, это заметили слишком поздно, потому что никто из участников конференции не выжил, а в пожарах все остальные драконы смогли улететь. Они создают большую проблему для всего региона, так как драконологов почти не осталось, а высвободившиеся на волю драконы часто устраивают бесчинства.</p></td> 
+        </tr>            
+        
+        
+        <tr>
+        <td class="col-1"><p class="bold">25 FEBRUARY 1980</p></td>
+        <td><p><span class="bold">Официальной начало войны между криминальными семьями</span><br>
+        На протяжение предыдущей недели были убиты трое младших представителей семей Уэйленд, Ралас и Вестер. Семьи нашли косвенные доказательства причастности других семей, которым тут же предъявили обвинения в убийстве и нарушении условий мира. Новая война началась быстро, конфликт разгорелся с неимоверной скоростью и масштаб этой войны уже готов посрамить все предыдущие.</p></td> 
+        </tr>             
+        
+        
+           
     
     
     
          </table></section>
-    <!-- COMING SOON 1 END-->
+    <!-- PACT END-->
     
     
     <!-- COMING SOON 2-->
@@ -1436,7 +1542,7 @@ background: #888;
     
     <!-- COMING SOON 3-->
     
-     <section id="content-tab7">
+     <section id="content-tab8">
     <table>
 
     
@@ -1451,5 +1557,188 @@ background: #888;
   </div>
 </div>
 <div class="clearer"></div>
-</body>
-</html>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+</style>
+
+<style>
+
+@font-face {font-family: "Romul";
+  src: url("http://forumstatic.ru/files/001a/ae/b4/73869.eot"); /* IE9*/
+  src: url("http://forumstatic.ru/files/001a/ae/b4/73869.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("http://forumstatic.ru/files/001a/ae/b4/66951.woff2") format("woff2"), /* chrome、firefox */
+  url("http://forumstatic.ru/files/001a/ae/b4/70731.woff") format("woff"), /* chrome、firefox */
+  url("http://forumstatic.ru/files/001a/ae/b4/81293.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("http://forumstatic.ru/files/001a/ae/b4/70776.svg#Romul") format("svg"); /* iOS 4.1- */
+}
+
+
+
+
+#timeline {width: 605px;
+height: 520px;}
+
+
+
+.regions {
+width: 606px;
+  margin: 10px;
+  height: 500px;
+  margin-top:9px;
+  position: absolute;
+  margin-left: 0px;
+}
+
+
+.tabs {
+	padding: 0px;
+	margin: 0 auto;
+}
+
+.tabs>section {
+	display: none;
+	/*padding: 10px;*/
+  height: 740px;
+  overflow-y: auto;
+  margin-right: -19px;
+  font-family: arial;
+  font-size: 11px;
+  text-align: justify
+}
+.tabs>section>table {
+	margin: 0 0 5px;
+	line-height: 1.5;
+	color: #383838;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+    
+    
+}
+
+ 
+@keyframes fadeIn {
+	from {
+opacity: 0;
+transition: opacity .55s ease-in-out;
+	}
+	to {
+    opacity: 1;
+	}
+    
+    
+    
+}
+
+.tabs>input {
+	display: none;
+	position: absolute;
+}
+
+.tabs>label:first-of-type {box-shadow: none}
+	
+.tabs>label {
+	display: inline-grid;
+	margin: 0 -3px 0px;
+	padding: 10px 0px;
+	font-weight: 600;
+	text-align: center;
+	color: #bbb4a1;
+	background: #2f2d26;
+  width: 153px;
+  border: solid rgba(0,0,0,.2);
+  border-width: 0px 0px 1px 0px;
+  left: 3px;
+  top: -9px;
+  position: relative;
+  font-family: arial;
+  font-size: 8.5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  box-shadow: 1px 0 0 0 rgba(0,0,0,.2) inset
+}
+    
+    .tabs>label:after{
+     position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+        transform: scale(0,1);}
+    
+
+.tabs>label:hover:after {
+background: #888;
+    font-weight: bold;}
+    
+.tabs>label:hover {
+    font-stretch: expanded;
+    letter-spacing: 2.5px;
+	cursor: pointer;
+  transition: all .3s cubic-bezier(0.25, 0.1, 0.25, 1) 0s
+}
+
+.tabs>input:checked+label {
+	color: #bbb4a1;
+  background: #455c44;
+}
+    
+
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4, #tab5:checked~#content-tab5, #tab6:checked~#content-tab6, #tab7:checked~#content-tab7, #tab8:checked~#content-tab8 
+    {
+	display: block;
+}
+    
+
+    .bold {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: oranienbaum;
+    font-size: 13;
+        
+    }
+    
+    .col-1 {
+        
+        width: 20%;
+        vertical-align: top;
+    }
+    
+    
+    tr>td {
+        
+        padding-bottom: 1em;
+    }
+    
+    table {
+        
+        font-family: arial;
+        font-size: 11px;
+        text-align: justify;
+    }
+    
+    table p {
+        
+        padding-right: 9px;
+    }
+	
+	
+	a {
+    font-family: oranienbaum;
+    font-weight: bold;
+    font-size: 13;
+    text-transform: uppercase;
+    color: #455c44;
+}
+</style>
