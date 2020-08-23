@@ -1,3 +1,9 @@
+---
+---
+
+@import"{{ site.theme }}";
+
+
 body {
-background: red;
+background: #00338d;
 }
