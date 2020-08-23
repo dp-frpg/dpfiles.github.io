@@ -551,13 +551,8 @@ background: #888;
   #card {
 margin: 1% auto;
     padding: 3px 0;
-    /* border-radius: 7px; */
     background: #2f2d26;
     height: 280px;
-  /*  width: 200px;
-      height: 250px;
-        position: relative;
-    display: inline-block;*/
     }
     
     @media screen and (max-width: 768px) {
@@ -594,13 +589,10 @@ margin: 1% auto;
     #subt {
         
 border-radius: .2rem;
-    */: ;
     width: 100%;
-    /* background: beige; */
     font-family: arial;
     font-size: 10;
     line-height: 1.5rem;
-    /* box-sizing: border-box;*/
     }
 
         #cost {
