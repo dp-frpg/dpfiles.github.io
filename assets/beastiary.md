@@ -547,10 +547,11 @@ background: #888;
 
   
   #card {
-    margin: 1% auto;
+margin: 1% auto;
     padding: 3px 0;
-    border-radius: 7px;
-    background: #000;
+    /* border-radius: 7px; */
+    background: #2f2d26;
+    height: 250px;
   /*  width: 200px;
       height: 250px;
         position: relative;
@@ -708,7 +709,7 @@ section, footer, nav {
   max-height: 130px;
 }
 .tile .front {
-  background: #fff;
+ /* background: #fff;*/
   transition: all .5s ease-in-out;
   z-index: 2;
 }
