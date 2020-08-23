@@ -728,6 +728,17 @@ transform: rotate(2deg);
     transition-duration: 0.7s;
 }
 
+
+header {
+  display: none;
+}
+
+
+
+footer {
+  display: none;
+}
+
 </style>
 
 <!--STYLE POPOVER END-->
