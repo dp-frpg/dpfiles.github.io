@@ -359,6 +359,7 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
+	<link rel="stylesheet" type="text/css" href="css/beastiary.css">
 </style>
 
 <style>
