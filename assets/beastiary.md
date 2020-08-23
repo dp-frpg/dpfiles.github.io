@@ -1,4 +1,8 @@
-<html><head></head><body>
+<html><head>
+	
+		<link rel="stylesheet" type="text/css" href="beastiary-main.css">
+		
+	</head><body>
 
 <div id="timeline">
  
@@ -359,7 +363,7 @@
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap');
-	<link rel="stylesheet" type="text/css" href="beastiary-main.css">
+
 </style>
 
 <style>
