@@ -1,8 +1,6 @@
 <html><head>
-	
-		<link rel="stylesheet" type="text/css" href="beastiary-main.css">
-		
-	</head><body>
+	<link rel="stylesheet" type="text/css" href="beastiary-main.css">
+		</head><body>
 
 <div id="timeline">
  
@@ -11,52 +9,52 @@
     <input id="tab1" type="radio" name="tabs" checked>
     <label for="tab1">Общее</label>
  
-    <input id="tab2" type="radio" name="tabs">
-    <label for="tab2">Хогвартс</label>
+  <input id="tab2" type="radio" name="tabs">
+   <label for="tab2">Хогвартс</label>
  
-    <input id="tab3" type="radio" name="tabs">
-    <label for="tab3">Ильверморни</label>
+   <input id="tab3" type="radio" name="tabs">
+   <label for="tab3">Ильверморни</label>
 
-    <input id="tab4" type="radio" name="tabs">
-    <label for="tab4">Дурмстранг</label>
+   <input id="tab4" type="radio" name="tabs">
+   <label for="tab4">Дурмстранг</label>
 
-    <input id="tab5" type="radio" name="tabs">
-    <label for="tab5">Шармбатон</label>
+   <input id="tab5" type="radio" name="tabs">
+   <label for="tab5">Шармбатон</label>
     
-    <input id="tab6" type="radio" name="tabs">
-    <label for="tab6">Уагаду/Аркана</label>
+   <input id="tab6" type="radio" name="tabs">
+   <label for="tab6">Уагаду/Аркана</label>
     
-    <input id="tab7" type="radio" name="tabs">
-    <label for="tab7">Coming Soon</label>
+   <input id="tab7" type="radio" name="tabs">
+   <label for="tab7">Coming Soon</label>
     
-    <input id="tab8" type="radio" name="tabs">
-    <label for="tab8">Coming Soon</label>
+   <input id="tab8" type="radio" name="tabs">
+   <label for="tab8">Coming Soon</label>
     
 
  <!-- ALL-->
     <section id="content-tab1">
         
-         <div class="tile job-bucket">
+  <div class="tile job-bucket">
  
-        <div class="front">
+   <div class="front">
             
-            <div class="content">
+   <div class="content">
 
 
    
         
-        <div id="card"> 
+  <div id="card"> 
   <div id="inner">
     <div id="title">
       Вендиго
       <div id="cost">8</div>     
     </div>
       
-                   <div id="subt">cursed creature</div>
+   <div id="subt">cursed creature</div>
       
-    <div id="image">&nbsp;</div>
+   <div id="image">&nbsp;</div>
       
-    <div id="type">
+   <div id="type">
       Америка и Канада
       <div id="symbol">
         <i class="ss ss-emn ss-uncommon ss-fw"></i>
@@ -66,62 +64,59 @@
 (You may cast this spell by sacrificing a creature and paying the average cost reduced by that creature's converted mana cost.)
       <br /><br/>
 
-    </div>
+  </div>
 
       
-       <div id="footer">
+  <div id="footer">
       Не лезь, ебанет
     </div>
 
   </div>
 </div>
   
-        </div></div>
+  </div></div>
                 
-                 <div class="back">
-             <div id="card"> 
+<div class="back">
+<div id="card"> 
   <div id="inner">
 
-    <div id="desc-card">
+<div id="desc-card">
 <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem </p>
 
-      <br /><br/>
-
-    </div>
+<br /><br/>
+</div>
       
 
   </div>
 </div>
 
-                </div></div>
+ </div></div>
 
         
        
         
         
-        
-        
-        
-        
-        
-        
-         <div class="tile job-bucket">
+   <div class="tile job-bucket">
  
-        <div class="front">
+   <div class="front">
             
-            <div class="content">
+   <div class="content">
 
 
    
         
-        <div id="card"> 
+  <div id="card"> 
   <div id="inner">
     <div id="title">
       Вендиго
-      <div id="cost">8</div>
+      <div id="cost">8</div>     
     </div>
-    <div id="image">&nbsp;</div>
-    <div id="type">
+      
+   <div id="subt">cursed creature</div>
+      
+   <div id="image">&nbsp;</div>
+      
+   <div id="type">
       Америка и Канада
       <div id="symbol">
         <i class="ss ss-emn ss-uncommon ss-fw"></i>
@@ -131,159 +126,159 @@
 (You may cast this spell by sacrificing a creature and paying the average cost reduced by that creature's converted mana cost.)
       <br /><br/>
 
-    </div>
-    <div id="power"> 6/4</div>
+  </div>
+
       
-       <div id="footer">
+  <div id="footer">
       Не лезь, ебанет
     </div>
 
   </div>
 </div>
   
-        </div></div>
+  </div></div>
                 
-                 <div class="back">
-             <div id="card"> 
+<div class="back">
+<div id="card"> 
   <div id="inner">
 
-    <div id="desc-card">
+<div id="desc-card">
 <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem </p>
 
-      <br /><br/>
-
-    </div>
+<br /><br/>
+</div>
       
 
   </div>
 </div>
 
-                </div></div>
-
-        
-        
-        
-         <div class="tile job-bucket">
- 
-        <div class="front">
-            
-            <div class="content">
-
-
-   
-        
-        <div id="card"> 
-  <div id="inner">
-    <div id="title">
-      Вендиго
-      <div id="cost">8</div>
-    </div>
-    <div id="image">&nbsp;</div>
-    <div id="type">
-      Америка и Канада
-      <div id="symbol">
-        <i class="ss ss-emn ss-uncommon ss-fw"></i>
-      </div>
-    </div>
-    <div id="desc-card">
-(You may cast this spell by sacrificing a creature and paying the average cost reduced by that creature's converted mana cost.)
-      <br /><br/>
-
-    </div>
-    <div id="power"> 6/4</div>
-      
-       <div id="footer">
-      Не лезь, ебанет
-    </div>
-
-  </div>
-</div>
-  
-        </div></div>
-                
-                 <div class="back">
-             <div id="card"> 
-  <div id="inner">
-
-    <div id="desc-card">
-<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem </p>
-
-      <br /><br/>
-
-    </div>
-      
-
-  </div>
-</div>
-
-                </div></div>
-
-        
-        
-        
-         <div class="tile job-bucket">
- 
-        <div class="front">
-            
-            <div class="content">
-
-
-   
-        
-        <div id="card"> 
-  <div id="inner">
-    <div id="title">
-      Вендиго
-      <div id="cost">8</div>
-    </div>
-    <div id="image">&nbsp;</div>
-    <div id="type">
-      Америка и Канада
-      <div id="symbol">
-        <i class="ss ss-emn ss-uncommon ss-fw"></i>
-      </div>
-    </div>
-    <div id="desc-card">
-(You may cast this spell by sacrificing a creature and paying the average cost reduced by that creature's converted mana cost.)
-      <br /><br/>
-
-    </div>
-    <div id="power"> 6/4</div>
-      
-       <div id="footer">
-      Не лезь, ебанет
-    </div>
-
-  </div>
-</div>
-  
-        </div></div>
-                
-                 <div class="back">
-             <div id="card"> 
-  <div id="inner">
-
-    <div id="desc-card">
-<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem </p>
-
-      <br /><br/>
-
-    </div>
-      
-
-  </div>
-</div>
-
-                </div></div>
-
+ </div></div>   
         
        
         
         
         
+   <div class="tile job-bucket">
+ 
+   <div class="front">
+            
+   <div class="content">
+
+
+   
         
+  <div id="card"> 
+  <div id="inner">
+    <div id="title">
+      Вендиго
+      <div id="cost">8</div>     
+    </div>
+      
+   <div id="subt">cursed creature</div>
+      
+   <div id="image">&nbsp;</div>
+      
+   <div id="type">
+      Америка и Канада
+      <div id="symbol">
+        <i class="ss ss-emn ss-uncommon ss-fw"></i>
+      </div>
+    </div>
+    <div id="desc-card">
+(You may cast this spell by sacrificing a creature and paying the average cost reduced by that creature's converted mana cost.)
+      <br /><br/>
+
+  </div>
+
+      
+  <div id="footer">
+      Не лезь, ебанет
+    </div>
+
+  </div>
+</div>
+  
+  </div></div>
+                
+<div class="back">
+<div id="card"> 
+  <div id="inner">
+
+<div id="desc-card">
+<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem </p>
+
+<br /><br/>
+</div>
+      
+
+  </div>
+</div>
+
+ </div></div>
+ 
+ 
+ 
+ 
+ 
+   <div class="tile job-bucket">
+ 
+   <div class="front">
+            
+   <div class="content">
+
+
+   
         
-    </section> 
+  <div id="card"> 
+  <div id="inner">
+    <div id="title">
+      Вендиго
+      <div id="cost">8</div>     
+    </div>
+      
+   <div id="subt">cursed creature</div>
+      
+   <div id="image">&nbsp;</div>
+      
+   <div id="type">
+      Америка и Канада
+      <div id="symbol">
+        <i class="ss ss-emn ss-uncommon ss-fw"></i>
+      </div>
+    </div>
+    <div id="desc-card">
+(You may cast this spell by sacrificing a creature and paying the average cost reduced by that creature's converted mana cost.)
+      <br /><br/>
+
+  </div>
+
+      
+  <div id="footer">
+      Не лезь, ебанет
+    </div>
+
+  </div>
+</div>
+  
+  </div></div>
+                
+<div class="back">
+<div id="card"> 
+  <div id="inner">
+
+<div id="desc-card">
+<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem </p>
+
+<br /><br/>
+</div>
+      
+
+  </div>
+</div>
+
+ </div></div>
+        
+</section> 
     
      <!-- HOGWARTS END-->
     
@@ -291,58 +286,58 @@
      <!-- ILVERMORNY-->
     
     
-    <section id="content-tab3">
+ <section id="content-tab3">
     
         
-    </section>  
+</section>  
     
       <!-- ILVERMORNY END-->
     
     <!-- DURMSTRANG-->
     
-     <section id="content-tab4">
+<section id="content-tab4">
     
-    </section>
+ </section>
     <!-- DURMSTRANG END-->
     
     
      <!-- BEAUXBATON-->
     
-     <section id="content-tab5">
+ <section id="content-tab5">
     
-    </section>
+</section>
     <!-- BEAUXBATON END-->
     
     
       <!-- PACT-->
     
-     <section id="content-tab6">
+ <section id="content-tab6">
 
            
     
     
     
-        </section>
+ </section>
     <!-- PACT END-->
     
     
     <!-- COMING SOON 2-->
     
-     <section id="content-tab7">
+ <section id="content-tab7">
     <table>
 
     
     
     
     
-         </table></section>
+ </table></section>
     <!-- COMING SOON 2 END-->
     
     
     <!-- COMING SOON 3-->
     
-     <section id="content-tab8">
-    <table>
+ <section id="content-tab8">
+ <table>
 
     
     
@@ -465,7 +460,7 @@ transition: opacity .55s ease-in-out;
   box-shadow: 1px 0 0 0 rgba(0,0,0,.2) inset
 }
     
-    .tabs>label:after{
+   .tabs>label:after{
      position: absolute;
   left: 0;
   display: inline-block;
@@ -503,7 +498,7 @@ background: #888;
 }
     
 
-    .bold {
+   .bold {
     font-weight: bold;
     text-transform: uppercase;
     font-family: oranienbaum;
@@ -511,32 +506,32 @@ background: #888;
         
     }
     
-    .col-1 {
+   .col-1 {
         
-        width: 20%;
-        vertical-align: top;
+  width: 20%;
+  vertical-align: top;
     }
     
     
-    tr>td {
+  tr>td {
         
-        padding-bottom: 1em;
+  padding-bottom: 1em;
     }
     
-    table {
+table {
         
-        font-family: arial;
+font-family: arial;
         font-size: 11px;
         text-align: justify;
     }
     
-    table p {
+ table p {
         
-        padding-right: 9px;
+ padding-right: 9px;
     }
 	
 	
-	a {
+a {
     font-family: oranienbaum;
     font-weight: bold;
     font-size: 13;
@@ -560,19 +555,19 @@ margin: 1% auto;
     height: 280px;
     }
     
-    @media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
       width: 90vw;
     }
     
-    @media screen and (max-width: 1024px) and (min-width: 769px) {
+  @media screen and (max-width: 1024px) and (min-width: 769px) {
       width: 60vw;
     }
     
-    @media screen and (max-width: 1366px) and (min-width: 1025px) {
+  @media screen and (max-width: 1366px) and (min-width: 1025px) {
       width: 33vw;
     }
 
-    #inner {
+   #inner {
       width: 180;
     height: 245;
     background: #aaa;
@@ -580,7 +575,7 @@ margin: 1% auto;
     position: relative;
     margin: .3rem auto;}
 
-      #title {
+   #title {
         border-radius: .4rem;
         margin: 0 auto;
         padding: 0 0 0 3%;
@@ -591,7 +586,7 @@ margin: 1% auto;
         line-height: 1.5rem;
           box-sizing: border-box;}
     
-    #subt {
+  #subt {
         
 border-radius: .2rem;
     width: 100%;
@@ -600,7 +595,7 @@ border-radius: .2rem;
     line-height: 1.5rem;
     }
 
-        #cost {
+   #cost {
           float: right;
           margin: .1rem .3rem 0 0;
           background: #ccc;
@@ -611,14 +606,14 @@ border-radius: .2rem;
           text-align: center;    
         }
     
-      #image {
+  #image {
         background: #333;
         width: 95%;
         height: 60px;
         margin: 0 auto;
       }
 
-      #type {
+  #type {
         border-radius: .4rem;
         margin: 0 auto;
         padding: 0 .5rem;
@@ -628,18 +623,18 @@ border-radius: .2rem;
         line-height: 1.6rem;
           box-sizing: border-box;}
 
-        #symbol {
+   #symbol {
           float: right;
           width: 2rem;
           text-align: center;
             line-height: 1.4rem;}
 
-          i {
+   i {
             font-size: 1.2rem;
           }
    
 
-      #desc-card {
+  #desc-card {
         background: #ccc;
         width: 90%;
         height: auto;
@@ -651,7 +646,7 @@ border-radius: .2rem;
 
 
 
-      #power {
+  #power {
         background: #fff;
         border-radius: .4rem;
         float: right;
@@ -665,7 +660,7 @@ border-radius: .2rem;
 
     
     
-     #footer {
+ #footer {
          padding: .5rem .7rem 0 .7rem;
     font-size: 11;}
     
@@ -738,7 +733,7 @@ font-size: 0.8em;
 .tile:hover .front {
 
 
-    opacity: 0;
+  opacity: 0;
 transform: rotate(2deg);
     transition-duration: 0.7s;
 }
