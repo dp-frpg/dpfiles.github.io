@@ -6,5 +6,5 @@ echo >> style.scss
 echo '@import "{{ site.theme }}";' >> style.scss
 
 body {
-background: transparent;
+background: red;
 }
