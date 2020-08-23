@@ -1,3 +1,5 @@
+<html><head></head><body>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <div id="timeline">
@@ -737,3 +739,4 @@ transform: rotate(2deg);
 
 </script>
 
+</body></html>
