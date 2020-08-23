@@ -633,7 +633,7 @@ margin: 1% auto;
         height: auto;
         margin: 0 auto;
         font-size: 1rem;
-          padding: .1rem .1rem;}
+        /*  padding: .1rem .1rem;*/}
         
 
 
