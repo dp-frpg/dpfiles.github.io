@@ -1,7 +1,5 @@
 <html><head></head><body>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 <div id="timeline">
  
   <div class="regions">
@@ -47,9 +45,13 @@
   <div id="inner">
     <div id="title">
       Вендиго
-      <div id="cost">8</div>
+      <div id="cost">8</div>     
     </div>
+      
+                   <div id="subt">cursed creature</div>
+      
     <div id="image">&nbsp;</div>
+      
     <div id="type">
       Америка и Канада
       <div id="symbol">
@@ -61,7 +63,7 @@
       <br /><br/>
 
     </div>
-    <div id="power"> 6/4</div>
+
       
        <div id="footer">
       Не лезь, ебанет
@@ -551,7 +553,7 @@ margin: 1% auto;
     padding: 3px 0;
     /* border-radius: 7px; */
     background: #2f2d26;
-    height: 250px;
+    height: 280px;
   /*  width: 200px;
       height: 250px;
         position: relative;
@@ -571,12 +573,12 @@ margin: 1% auto;
     }
 
     #inner {
-      width: 96%;
-      height: 91%;
-      background: #aaa;
-      padding: .5rem 0;
-      position: relative;
-        margin: .3rem auto;}
+      width: 180;
+    height: 245;
+    background: #aaa;
+    padding: .5rem 0;
+    position: relative;
+    margin: .3rem auto;}
 
       #title {
         border-radius: .4rem;
@@ -584,9 +586,22 @@ margin: 1% auto;
         padding: 0 0 0 3%;
         width: 97%;
         background: #fff;
-        font-size: 1rem;
+          font-family: oranienbaum;
+        font-size: 19;
         line-height: 1.5rem;
           box-sizing: border-box;}
+    
+    #subt {
+        
+border-radius: .2rem;
+    */: ;
+    width: 100%;
+    /* background: beige; */
+    font-family: arial;
+    font-size: 10;
+    line-height: 1.5rem;
+    /* box-sizing: border-box;*/
+    }
 
         #cost {
           float: right;
@@ -632,8 +647,9 @@ margin: 1% auto;
         width: 90%;
         height: auto;
         margin: 0 auto;
-        font-size: 1rem;
-        /*  padding: .1rem .1rem;*/}
+        font-size: 11;
+          font-family: sans-serif;
+     padding: .1rem .1rem;}
         
 
 
@@ -653,7 +669,8 @@ margin: 1% auto;
     
     
      #footer {
-         padding: .5rem .7rem 0 .7rem;}
+         padding: .5rem .7rem 0 .7rem;
+    font-size: 11;}
     
 
       
@@ -683,7 +700,7 @@ section, footer, nav {
 
 .tile {
   width: 200px;
-  height: 250px;
+  height: 280px;
   margin: 0.2em;
   position: relative;
   float: left;
@@ -697,7 +714,7 @@ section, footer, nav {
   left: 0;
   right: 0;
   width: 200px;
-  height: 250px;
+  height: 280px;
   position: absolute;
   overflow: hidden;
   text-align: center;
@@ -718,7 +735,7 @@ section, footer, nav {
   color: black;
   z-index: 1;
 font-size: 0.8em;
-  height: 250px;
+  height: 280px;
 }
 
 .tile:hover .front {
