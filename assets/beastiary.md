@@ -730,15 +730,6 @@ transform: rotate(2deg);
 }
 
 
-header {
-  display: none;
-}
-
-
-
-footer {
-  display: none;
-}
 
 </style>
 
@@ -746,9 +737,5 @@ footer {
 
 
 
-<script>
-
-
-</script>
 
 </body></html>
